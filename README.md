@@ -20,7 +20,7 @@ You can view the live demo of the Animated Sun Design by clicking on the followi
 
 ## Author
 
-- [Your Name](https://github.com/your-github-username)
+- [Your Name](https://github.com/hadep275)
 
 ## License
 
