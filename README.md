@@ -20,8 +20,4 @@ You can view the live demo of the Animated Sun Design by clicking on the followi
 
 ## Author
 
-- [Your Name](https://github.com/hadep275)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- [hadep275](https://github.com/hadep275)
