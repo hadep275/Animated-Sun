@@ -10,7 +10,7 @@ This project features an animated sun with golden rays that rotate around it, gi
 
 You can view the live demo of the Animated Sun Design by clicking on the following link:
 
-[**Live Demo**](https://your-deployed-link-here.com)
+[**Live Demo**](https://hadep275.github.io/Animated-Sun/)
 
 ## How to Use
 
