@@ -21,6 +21,7 @@ body {
     position: absolute;
     width: 200px;
     height: 200px;
+    animation: rotateRays 8s linear infinite; /* Rotate the rays */
 }
 
 .ray {
@@ -30,7 +31,6 @@ body {
     background: #FFD700; /* Golden Ray Color */
     left: 50%;
     transform: translateX(-50%);
-    animation: rayAnimation 3s linear infinite; /* Ray Animation */
 }
 
 .ray1 { transform: rotate(45deg); }
@@ -42,8 +42,7 @@ body {
 .ray7 { transform: rotate(315deg); }
 .ray8 { transform: rotate(0deg); }
 
-@keyframes rayAnimation {
-    0% { transform: rotate(0deg) scaleY(1); }
-    50% { transform: rotate(0deg) scaleY(1.2); }
-    100% { transform: rotate(0deg) scaleY(1); }
+@keyframes rotateRays {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
 }
