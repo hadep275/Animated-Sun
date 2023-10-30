@@ -28,7 +28,7 @@ body {
     position: absolute;
     width: 2px;
     height: 100px;
-    background: #FFD700; /* Golden Ray Color */
+    background: black; /* Golden Ray Color */
     left: 50%;
     transform: translateX(-50%);
 }
