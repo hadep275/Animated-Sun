@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #87CEEB; /* Light Blue Background */
+}
+
+.sun {
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, #f2f2f2, #9a9a9a41, #0f0f0f);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 30px rgba(255, 223, 186, 0.8); /* Sun Glow Effect */
+}
+
+.rays {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+
+.ray {
+    position: absolute;
+    width: 2px;
+    height: 100px;
+    background: #FFD700; /* Golden Ray Color */
+    left: 50%;
+    transform: translateX(-50%);
+    animation: rayAnimation 3s linear infinite; /* Ray Animation */
+}
+
+.ray1 { transform: rotate(45deg); }
+.ray2 { transform: rotate(90deg); }
+.ray3 { transform: rotate(135deg); }
+.ray4 { transform: rotate(180deg); }
+.ray5 { transform: rotate(225deg); }
+.ray6 { transform: rotate(270deg); }
+.ray7 { transform: rotate(315deg); }
+.ray8 { transform: rotate(0deg); }
+
+@keyframes rayAnimation {
+    0% { transform: rotate(0deg) scaleY(1); }
+    50% { transform: rotate(0deg) scaleY(1.2); }
+    100% { transform: rotate(0deg) scaleY(1); }
+}
